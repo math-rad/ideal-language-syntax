@@ -1,0 +1,57 @@
+(condition) =>
+(condition) => {}
+
+(condition :: variable) {
+
+}
+
+{TYPE} identifier = value
+
+Object object = {}
+
+object -> ({TYPE} i, {TYPE} v) {
+
+}
+
+object -> (v, ...) :: iterator {
+
+}
+
+&value {
+    #case: {
+
+    }
+    #(condition w. value): {
+
+    }
+    #[case, case2, ...] {
+
+    }
+    *: {
+
+    }
+}
+
+*(condition) -> {
+
+}
+
+(condition)* -> {
+
+}
+
+identifier(v, ...) {
+
+}
+
+(...) => 
+(...) => {}
+
+^^ (value)
+^^ (value) | (condition)
+
+//
+// | (condition) 
+
+->
+-> | (condition)
